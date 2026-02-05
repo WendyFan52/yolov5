@@ -1,0 +1,8 @@
+# mytrain.yaml
+path: /data/Bamberg/BambergDataset/coco2048/
+train: images/train2023 
+val: images/val2023 
+test: images/test2023
+
+nc: 1 
+names: ['tree']  

@@ -403,7 +403,7 @@ def check_git_info(path="."):
     """Checks YOLOv5 git info, returning a dict with remote URL, branch name, and commit hash."""
     check_requirements("gitpython")
     import git
-
+    return None
     try:
         repo = git.Repo(path)
         remote = repo.remotes.origin.url.replace(".git", "")  # i.e. 'https://github.com/ultralytics/yolov5'
